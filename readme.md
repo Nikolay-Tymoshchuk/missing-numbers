@@ -45,6 +45,12 @@ function findMissingNumbers(arr) {
     return result;
   }
 
+  const firstMissing = findMissingNumber(1);
+  const secondMissing = findMissingNumber(2);
+
+  return [firstMissing, secondMissing];
+}
+
 ```
 
 ## Примеры использования
